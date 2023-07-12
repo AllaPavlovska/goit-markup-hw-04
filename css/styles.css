@@ -220,6 +220,8 @@ letter-spacing: 0.02em;
         letter-spacing: 0.02em;
         color: #434455;
         text-align: center;
+        padding-top: 8px;
+        padding-bottom: 8px;
 
 }
 
@@ -438,6 +440,7 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     
     
     
+    
 }
 .section-cusromers-item{
     width: 168px;
@@ -498,6 +501,7 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     align-items: center;
     justify-content: center;
     color: var(--light-slate);
+  
 }
 .customer-link:hover,.customer-link:focus{
     color: var(--button-color);
@@ -552,7 +556,11 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     align-items: center;
     justify-content: center;
     transition: background-color 250ms cubic-bezier(0.4,0,0.2,1);
+    background-color: var(--main-color);
+    
+    
 }
+
 .socials-item-icon:hover,
 .socials-item-icon:focus{
     background-color: var(--button-color);
@@ -566,6 +574,7 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
 .section-customers{
     display: flex;
     padding-left: 156px;
+   
 }
 .title-customers{
     font-size: 36px;
@@ -576,4 +585,12 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
        padding-bottom: 72px;
        padding-left: 520px;
        padding-right: 156px;
+       padding-top: 120px;
+}
+.workers-socials{
+    
+    fill: var(--cloud-color);
+}
+.social-media{
+    padding-right: 120px;
 }
