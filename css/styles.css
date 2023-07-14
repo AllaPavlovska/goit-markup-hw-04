@@ -497,6 +497,7 @@ border: 1px solid transparent;
 
 }
 
+
 .current{
     color: var(--button-color);
     position: relative;
@@ -550,20 +551,16 @@ border: 1px solid transparent;
             
 }
 
-.project-list-item:hover,
-.project-list-item:focus{
+.project-list-item:hover
+{
 box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
 transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
         background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
         box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        
 
 }
-.additional-text:focus,
-.additional-text:hover
-{
-    transform: translateY(0%);
 
-}
 
 .button-list:hover,
 .button-list:focus
@@ -763,9 +760,8 @@ margin-right: 120px;
 box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.banking:hover,
-.banking:focus{
-box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+.banking:hover{
+
 transform: translateY(0%);
 }
 
@@ -775,4 +771,10 @@ transform: translateY(0%);
 .socials-footer{
     gap: 16px;
     display: flex;
+}
+.project-list-item:hover,
+.additional-text:focus,
+.project-list-item:focus {
+    transform: translateY(0%);
+
 }
