@@ -84,12 +84,20 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--button-color);
-    margin-right: 76px;
-    display: inline-block;
-    
-    
-     
+    display: inline-block;   
 }
+.logo-header{
+    font-family: "Raleway", sans-serif;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: var(--button-color);
+        display: inline-block;
+        margin-right: 76px;
+    }
+
 .logo-footer{
     margin-bottom: 16px;
     display: inline-block;
@@ -136,9 +144,9 @@ color: var(--cloud-color);
         padding-bottom: 24px;
         display: flex;
         align-items: center;
-        color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
         position: relative;
-        color: var(--button-color);
+        color: var(--navy-color);
         transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
  }
  .nav-list:hover,.nav-list:focus{
@@ -161,7 +169,7 @@ color: var(--cloud-color);
     line-height: 1.5;
     color: #434455;
     letter-spacing: 0.02em;
-    color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
  }
@@ -186,7 +194,7 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
                 background-repeat: no-repeat;
                 background-position: center;
                 background-size: cover;
-
+margin: auto;
    
     
 }
@@ -330,7 +338,6 @@ margin-bottom: 72px;
     background-color: #4d5ae5;
     border-radius: 4px;
     margin: 0 auto;
-    background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
    
@@ -345,7 +352,6 @@ margin-bottom: 72px;
 .spdt{
     padding-top: 120px;
 padding-bottom: 120px;
-display: flex;
     align-content: space-between;
     gap: 24px;
 }
@@ -365,7 +371,7 @@ width: calc((100% - 72px) / 4);
     color: var(--cloud-color);
     letter-spacing: 0.02em;
     max-width: 264px;
-    margin-bottom: 16px;
+    
 }
 
 .logo-text span{
@@ -472,6 +478,7 @@ border: 1px solid transparent;
     width: 168px;
         height: 88px;
         fill: currentColor;
+        padding: 16px 32px;
 
 }
 
@@ -482,7 +489,6 @@ border: 1px solid transparent;
         font-size: 16px;
         height: 100px;
         line-height: 1.5;
-        
         color: var(--cloud-color);
         background-color: var(--main-color);
         height: 100%;
@@ -565,22 +571,12 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
         box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
         box-shadow:  0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
-.section-menu-item{
-    width: 264px;
-    height: 112px;
-    border-radius: 4px;
-    background-color: var(--cloud-color);
-   padding-left: 100px;
-   padding-right: 100px;
-    padding-top: 12px;
-    padding-bottom: 12px;
-   
-}
+
 .socials-item{
     width: 40px;
     height: 40px;
     display: block;
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    
 
 }
 
@@ -636,17 +632,11 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
 }
 .title-customers{
     font-size: 36px;
-        font-weight: 700;
-        line-height: 40px;
-        letter-spacing: 0.72px;
-       padding-bottom: 72px;
-       padding-left: 520px;
-       padding-right: 156px;
-       padding-top: 120px;
-    line-height: 1.11;
-    color: var(--navy-color);
-    margin-bottom: 72px
-   
+        line-height: 1.11;
+        text-align: center;
+        text-transform: capitalize;
+        color: var(--navy-color);
+        margin-bottom: 72px;
 }
 .workers-socials{
     fill: var(--cloud-color);
